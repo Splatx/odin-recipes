@@ -1,7 +1,35 @@
+.bgcolor {
+    background-color: aquamarine;
+}
+
 .shape {
     height: 500px;
     width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.indexshape {
+    height: 300px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerlist {
+    text-align: center;
+}
+
+#keeptopright {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+#keepbotleft {
+    position: relative;
+    bottom: 0px;
+    left: 5px;
 }
